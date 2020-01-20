@@ -30,10 +30,10 @@ connected by a black edge to it. The pruning stops when a node with multiple bra
 The process is repeated with another leaf node until the tree is diminished to nothing. The final set of sets is counted and the total
 number of valid tuples returned.
 
-#Authors
+#Authors:
 John Horning (johnhorning@gmail.com)
 
-#Copyright
+#Copyright:
 Copyright 2020, John Horning, all rights reserved
 
 This program is free to use or modify, but John Horning is not responsible for another's use of this code or 
