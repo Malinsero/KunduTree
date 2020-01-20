@@ -1,23 +1,12 @@
-# A program that takes a tree with N vertices and N - 1 edges. These edges can be red or black. Given a tree,
-# find the number of valid tuples (0, 1, 2) such that there is at least one red edge between t[0] and t[1]
-# and at least one red edge between t[1] and t[2]. Note that (0, 1, 2) is the same as (1, 0, 2) or any other
-# permutation.
+# !/usr/bin/env python
 #
-# This program uses a DFT of sorts to find the valid tuples and counts them.
-# The input for this program is to run it from command line with the name of a .txt file as the input.
-# The format of the file is an integer N representing the number of nodes on the first line, and on subsequent lines,
-# an integer representing the first node's index, a space, an integer representing the second node's index, a space,
-# and a char either 'r' or 'b' to represent red or black.
-# i.e.
-# 4
-# 1 2 r
-# 2 3 r
-# 3 4 b
-# represents the graph:  1 r-> 2 r-> 3 b-> 4
-# which would evaluate to 2 valid tuples.
+# Copyright 2020, John Horning
+#
+# This program is free to use or modify. John Horning is not responsible for
+# another's use of this code.
 #
 # @author John Horning (johnhorning@gmail.com)
-# @version December 21, 2019
+# @version 1.0
 
 import sys
 
