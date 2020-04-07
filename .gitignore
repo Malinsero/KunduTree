@@ -1,4 +1,6 @@
 # Pycharm files #
 /venv/
-
-/.idea/
+*.xml
+/.idea/*.xml
+.idea/
+.idea
